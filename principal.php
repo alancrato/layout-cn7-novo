@@ -1,0 +1,79 @@
+<div class="row">
+    <div class="col s12 m5 l5">
+        <div class="btn-small">
+            Crime Organizado
+        </div>
+        <div class="title">
+            <a href="javascript:void(null)">
+                Mortes de bandidos do PCC e do GDE provocam "salve geral" para ataques na Capital
+            </a>
+        </div>
+        <div class="bigode">
+            Criminosos foram mortos na manha de quinta deira passada durante operação da Polícia Cicil, em Amontada. Em represália, as facções ordenadas a seus "soldados" iniciar uma nova onda de ataques nas ruas das cidades
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="col s12 m7 l7">
+        <div class="row">
+            <div class="col s12 m5 l5">
+                <img src="img/cards/nezinho.jpg"/>
+                <div class="btn-small">
+                    Dinheiro Muito
+                </div>
+                <div class="title-destaque">
+                    Uma trajetória impressionante: de zero reais em 1988 para R$ 2 milhões em 2018
+                </div>
+                <div class="bigode-destaque">
+                    Nezinho fica rico na Prefeitura de Horizonte e compra mansão por 1 milhão de dólares
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="col s12 m7 l7">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="img/cards/home_04.png"/>
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <div class="retranca-destaque-right">
+                                    Fato ou Fake?
+                                </div>
+                                <div class="tittle-destaque-right">
+                                    Ciro Gomes vende imagem de machão e afirma não andar com seguranças em Fortaleza
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="img/cards/home_04.png"/>
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <div class="retranca-destaque-right">
+                                    Fato ou Fake?
+                                </div>
+                                <div class="tittle-destaque-right">
+                                    Ciro Gomes vende imagem de machão e afirma não andar com seguranças em Fortaleza
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s4 m4 l4">
+                                <img src="img/cards/home_04.png"/>
+                            </div>
+                            <div class="col s8 m8 l8">
+                                <div class="retranca-destaque-right">
+                                    Fato ou Fake?
+                                </div>
+                                <div class="tittle-destaque-right">
+                                    Ciro Gomes vende imagem de machão e afirma não andar com seguranças em Fortaleza
+                                </div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
