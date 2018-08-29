@@ -14,6 +14,14 @@
         <div class="line"></div>
     </div>
     <div class="col s12 m7 l7">
+        <div class="row center hide-on-med-and-up float-mais-principal-mobile">
+            <div class="title-publicidade">
+                Publicidade
+            </div>
+            <div class="publicidade-quadrada"></div>
+            <br/>
+            <div class="line-extra"></div>
+        </div>
         <div class="row">
             <div class="col s12 m5 l5">
                 <img src="img/cards/nezinho.jpg"/>
@@ -21,15 +29,15 @@
                     Dinheiro Muito
                 </div>
                 <div class="title-destaque">
-                    Uma trajetória impressionante: de zero reais em 1988 para R$ 2 milhões em 2018
+                    Mortes de bandidos do PCC e do GDE provocam "salve geral" para ataques na Capital
                 </div>
                 <div class="bigode-destaque">
-                    Nezinho fica rico na Prefeitura de Horizonte e compra mansão por 1 milhão de dólares
+                    Criminosos foram mortos na manha de quinta deira passada durante operação da Polícia Cicil, em Amontada
                 </div>
                 <div class="line"></div>
             </div>
             <div class="col s12 m7 l7">
-                <div class="row">
+                <div class="row float-mais-principal-mobile">
                     <div class="col s12 m12 l12">
                         <div class="row">
                             <div class="col s4 m4 l4">
@@ -71,6 +79,13 @@
                             </div>
                         </div>
                         <div class="line"></div>
+                        <div class="row center hide-on-med-and-up float-mais-principal-mobile">
+                            <div class="title-publicidade">
+                                Publicidade
+                            </div>
+                            <div class="publicidade-quadrada"></div>
+                        </div>
+                        <div class="line hide-on-med-and-up"></div>
                     </div>
                 </div>
             </div>

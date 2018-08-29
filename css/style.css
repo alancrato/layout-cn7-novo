@@ -6,6 +6,26 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+    font-family: "SanFranciscoDisplay-Bold";
+    src: url("../fonts/SanFranciscoDisplay-Bold.otf");
+}
+
+@font-face {
+    font-family: "SanFranciscoDisplay-Regular";
+    src: url("../fonts/SanFranciscoDisplay-Regular.otf");
+}
+
+@font-face {
+    font-family: "SanFranciscoDisplay-Semibold";
+    src: url("../fonts/SanFranciscoDisplay-Semibold.otf");
+}
+
+@font-face {
+    font-family: "SanFranciscoText-Medium";
+    src: url("../fonts/SanFranciscoText-Medium.otf");
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -132,10 +152,16 @@ nav .nav-search{
     font-weight: bold;
     background-color: black;
     color: #f7c341;
+    margin: 0 0 4px 0;
 }
 
 .btn-small:hover{
     background-color: #3b3b3b;
+}
+
+.bigode-mais-destaques {
+    background-color: #f7c341;
+    color: black;
 }
 
 .title a{
@@ -183,8 +209,8 @@ nav .nav-search{
 }
 
 .tittle-destaque-right{
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.3em;
+    font-weight: 400;
     line-height: 1.1em;
     color: black;
     padding: 5px 0;
@@ -195,8 +221,18 @@ nav .nav-search{
     margin-top: 4%;
 }
 
-.float--mais-destaques{
-    margin-top: -15%;
+.line-extra{
+    border-bottom: 1px solid #0000001c;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.float-mais-destaques{
+    margin-top: -25%;
+}
+
+.float-mais-destaques-right{
+    margin-top: -5%;
 }
 
 
@@ -218,7 +254,7 @@ nav .nav-search{
 }
 
 .card .card-image img{
-    clip-path: inset(0px 5px 50px 0px);
+    clip-path: inset(0px 20px 50px 6px);
     border-radius: 5px;
 }
 
@@ -242,7 +278,8 @@ nav .nav-search{
     left: 0;
     max-width: 80%;
     padding: 5%;
-    margin: -20px -5px;
+    margin: 0 -5px;
+    line-height: 1.1em;
 }
 
 .card .card-title {
@@ -251,8 +288,16 @@ nav .nav-search{
 }
 
 .publicidade-quadrada{
-    width: 100%;
+    width: 95%;
     height: 260px;
+    margin: 0 auto;
+    background-color: #ececec;
+}
+
+.publicidade-quadrada-extra{
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
     background-color: #ececec;
 }
 
@@ -311,24 +356,143 @@ nav .nav-search{
     background-color: #ececec;
 }
 
+.border-politica{
+    border: 3px solid #f7c341;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.title-politica{
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: black;
+    padding: 0;
+}
+
+.politica{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    margin: 4px 0 6px 0;
+}
+
 /*
     polícia
  */
 
+.homicidometro{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+    background-color: #f7c341;
+    padding: 10px;
+}
 
+.title-homicidometro{
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0 0 0;
+    margin-top: 20%;
+}
+
+.subtitle-homicidometro{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 0 0 12% 0;
+}
+
+.date-homicidometro{
+    font-size: 1em;
+    font-weight: 500;
+    padding: 12% 0 0 0;
+    color: white;
+}
+
+.btn-large {
+    height: 45px;
+    line-height: 42px;
+    padding: 0 1em;
+}
+
+.darken-4 {
+    font-size: 1.6em;
+}
+
+.publicidade-quadrada-politica {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #ececec;
+}
+
+/*
+    polícia
+ */
+
+.cariri{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    margin: 4px 0 6px 0;
+}
+
+.border-cariri{
+    border: 3px solid #f7c341;
+    margin-top: 12%;
+    border-radius: 5px;
+}
 
 /*
     Observatório Justiça
  */
 
+.observatorio{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    margin: 0 0 6px 0;
+}
+
+
+.border-observatorio{
+    border: 3px solid #f7c341;
+    margin-top: 4%;
+    border-radius: 5px;
+}
 
 /*
     interior
- */
-
-/*
     Esportes
  */
+
+.border-interior{
+    border: 3px solid #f7c341;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+
+/*
+    tudo
+ */
+
+.border-tudo{
+    border: 3px solid #f7c341;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+.tudo{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+    margin: 4px 0 6px 0;
+}
 
 
 
@@ -419,6 +583,155 @@ nav .nav-search{
 
     .sidenav li > a:hover{
         color: #e3b03b;
+    }
+
+    /*
+        mais destaques | right
+     */
+
+    .float-mais-destaques{
+        margin-top: -10%;
+    }
+
+    .float-mais-destaques-right{
+        margin-top: -5%;
+    }
+
+    .float-mais-principal-mobile{
+        margin-top: 6%;
+    }
+
+    .float-mais-principal-mobile-right{
+        margin-top: 12%;
+    }
+
+    .tittle-destaque-right{
+        font-weight: 500;
+    }
+
+    /*
+        mais destaques | right
+     */
+
+    .ajuste-card-mobile{
+        margin-top: -5%;
+    }
+
+    .card .card-image img {
+        clip-path: inset(0);
+    }
+
+    .card .card-image .card-title {
+        margin: -12px -5px;
+    }
+
+    .mais-destaque {
+        font-size: 1.3em;
+        margin: 4px 0 6px 0;
+    }
+
+    .border-mais-destaques {
+        margin-top: 8%;
+    }
+
+    .brasilia{
+        margin-top: 4%;
+    }
+
+    /*
+        política
+     */
+
+    .border-politica{
+        margin-top: 10%;
+    }
+
+    .politica{
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+        font-size: 1.3em;
+        margin: 20% 0 -12% 0;
+    }
+
+    .ajuste-card-mobile-policia{
+        margin-top: -12%;
+    }
+
+    .title-politica{
+        font-size: 1.4em;
+    }
+
+    /*
+        policia
+     */
+
+    .homicidometro{
+        height: 240px;
+        padding: 0;
+    }
+
+    .title-homicidometro{
+        padding: 8% 0 0 0;
+        margin-top: 1%;
+    }
+
+    .subtitle-homicidometro{
+        padding: 0 0 8% 0;
+    }
+
+    .darken-4 {
+        font-size: 1.8em;
+    }
+
+    .date-homicidometro{
+        padding: 6% 0 0 0;
+    }
+
+    /*
+        cariri
+     */
+
+    .cariri{
+        font-size: 1.3em;
+    }
+
+    .border-cariri {
+        margin-top: 6%;
+    }
+
+    /*
+        observatorio
+     */
+
+    .observatorio{
+        font-size: 1.3em;
+    }
+
+    /*
+        interior
+        esportes
+     */
+
+    .ajuste-card-interior{
+        margin-top: -8%;
+    }
+
+    .border-interior{
+        margin-top: 10%;
+    }
+
+    /*
+        tudo
+     */
+
+    .ajuste-line-tuto{
+        margin-top: 10%;
+    }
+
+    .tudo {
+        font-size: 1.4em;
+        margin: 0;
     }
 
 }

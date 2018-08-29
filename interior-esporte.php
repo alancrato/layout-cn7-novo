@@ -1,11 +1,15 @@
 <div class="col s12 m6 l6">
+    <div class="row ajuste-card-interior">
+        <div class="col s3">
+            <div class="politica">
+                Interior
+            </div>
+        </div>
+        <div class="col s9">
+            <div class="border-interior"></div>
+        </div>
+    </div>
     <div class="row">
-        <div class="col s6 m6 l6">
-            Interior
-        </div>
-        <div class="col s6 m6 l6">
-            line
-        </div>
         <div class="col s12 m12 l12">
             <div class="row">
                 <div class="col s12 m6 l6">
@@ -18,13 +22,6 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l6">
-                    <div class="retranca-destaque-right">
-                        Fato ou Fake?
-                    </div>
-                    <div class="tittle-destaque-right">
-                        Ciro Gomes vende imagem de machão e afirma não andar com seguranças em Fortaleza
-                    </div>
-                    <br/>
                     <div class="retranca-destaque-right">
                         Fato ou Fake?
                     </div>
@@ -53,12 +50,16 @@
 </div>
 <div class="col s12 m6 l6">
     <div class="row">
-        <div class="col s6 m6 l6">
-            Esportes
+        <div class="col s3">
+            <div class="politica">
+                Esportes
+            </div>
         </div>
-        <div class="col s6 m6 l6">
-            line
+        <div class="col s9">
+            <div class="border-interior"></div>
         </div>
+    </div>
+    <div class="row">
         <div class="col s12 m12 l12">
             <div class="row">
                 <div class="col s12 m6 l6">
@@ -71,13 +72,6 @@
                     </div>
                 </div>
                 <div class="col s12 m6 l6">
-                    <div class="retranca-destaque-right">
-                        Fato ou Fake?
-                    </div>
-                    <div class="tittle-destaque-right">
-                        Ciro Gomes vende imagem de machão e afirma não andar com seguranças em Fortaleza
-                    </div>
-                    <br/>
                     <div class="retranca-destaque-right">
                         Fato ou Fake?
                     </div>
