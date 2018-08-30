@@ -530,6 +530,93 @@ footer ul a:hover{
 }
 
 /*
+    single
+ */
+
+.title-single{
+    font-size: 2.4em;
+    font-weight: bold;
+    color: black;
+    line-height: 1.1em;
+    text-align: center;
+}
+
+.subtitle-single{
+    font-size: 1.4em;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #8e8e8e;
+    text-align: center;
+}
+
+blockquote {
+    margin: 8px 0 -12px 0;
+    padding-left: 1em;
+    border-left: 5px solid #f7c341;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.autor-date-social{
+    margin-top: 2%;
+}
+
+.autor-date-social img{
+    width: 60%;
+}
+
+.autor-date-social .facebook-single img{
+    width: 35%;
+}
+
+.autor-title{
+    font-size: 1em;
+    font-weight: 500;
+    color: #8e8e8e;
+}
+
+.time-date img{
+    width: 12%;
+    margin: 4px 10px;
+    float: left;
+}
+
+.date-single{
+    font-size: 1em;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+
+.content-single{
+    margin-top: -5%;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.btn-large{
+    background-color: #f7c341;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 1em;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.btn-large:hover{
+    background-color: #c79a32;
+}
+
+.tittle-leia-tambem {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: black;
+    padding: 5px 0;
+}
+
+/*
   desktop
  */
 @media only screen and (min-width: 1200px){
@@ -812,6 +899,38 @@ footer ul a:hover{
         width: 50%;
     }
 
+    /*
+        single
+     */
+
+    .title-single{
+        text-align: inherit;
+    }
+
+    .subtitle-single{
+        text-align: inherit;
+    }
+
+    .time-date img {
+        width: 10%;
+        margin: 2px 8px;
+        float: left;
+        margin-left: 0;
+    }
+
+    .ajuste-img-social-mobile{
+        margin-top: -6%;
+    }
+
+    .tittle-leia-tambem {
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    blockquote {
+        margin: 8px 0 -8px 0;
+    }
+
 }
 
 @media only screen and (max-width: 375px){
@@ -901,6 +1020,23 @@ footer ul a:hover{
     .tudo {
         font-size: 1.1em;
     }
+
+    /*
+        single
+     */
+
+    blockquote {
+        margin: 8px 0 -8px 0;
+    }
+
+    .content-single {
+        margin-top: -10%;
+    }
+
+    .tittle-leia-tambem {
+        font-weight: 500;
+    }
+
 
 }
 
@@ -1045,6 +1181,41 @@ footer ul a:hover{
 
     .sidenav li > a {
         font-size: 1.1em;
+    }
+
+    /*
+        single
+     */
+
+    .title-single {
+        font-size: 2em;
+    }
+
+    .subtitle-single {
+        font-size: 1.2em;
+    }
+
+    blockquote {
+        margin: 8px 0 -5px 0;
+        font-size: 0.8em;
+    }
+
+    .time-date img {
+        margin: 3px 8px;
+    }
+
+    .date-single {
+        font-size: 0.9em;
+    }
+
+    .content-single {
+        margin-top: -10%;
+        font-size: 1.2em;
+    }
+
+    .tittle-leia-tambem {
+        font-size: 1em;
+        font-weight: 500;
     }
 
 }

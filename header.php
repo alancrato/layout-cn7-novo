@@ -131,24 +131,3 @@
         </ul>
     </div>
 </nav>
-<div class="submenu-nav hide-on-med-and-up">
-    <div class="container">
-        <div class="row">
-            <div class="col s4">
-                <a class="active" href="index.php">
-                    Destaques
-                </a>
-            </div>
-            <div class="col s4">
-                <a href="index.php">
-                    Mais Lidas
-                </a>
-            </div>
-            <div class="col s4">
-                <a href="index.php">
-                    Colunas
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
