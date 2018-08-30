@@ -1,35 +1,38 @@
-<footer class="page-footer black">
+<footer class="page-footer amber lighten-1">
     <div class="container">
         <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Company Bio</h5>
-                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
+            <div class="col s12 m3">
+                <div class="logo-footer">
+                    <img src="img/logo-footer.png"/>
+                </div>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Settings</h5>
+            <div class="col s6 m3 border-menu-footer">
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
+                    <li><a class="black-text" href="javascript:void(null)">Últimas</a></li>
+                    <li><a class="black-text" href="javascript:void(null)">Mais Lidas</a></li>
+                    <li><a class="black-text" href="javascript:void(null)">Contato</a></li>
+                    <li><a class="black-text" href="javascript:void(null)">Jornal do Cariri</a></li>
+                    <li><a class="black-text" href="javascript:void(null)">Plus Fm</a></li>
                 </ul>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Connect</h5>
+            <div class="col s6 m3 border-menu-footer">
                 <ul>
-                    <li><a class="white-text" href="#!">Link 1</a></li>
-                    <li><a class="white-text" href="#!">Link 2</a></li>
-                    <li><a class="white-text" href="#!">Link 3</a></li>
-                    <li><a class="white-text" href="#!">Link 4</a></li>
+                    <li><a class="black-text" href="#!">Facebook</a></li>
+                    <li><a class="black-text" href="#!">Instagram</a></li>
+                    <li><a class="black-text" href="#!">Whatsapp</a></li>
+                    <li><a class="black-text" href="#!">E-mail</a></li>
                 </ul>
+            </div>
+            <div class="col s12 m3">
+                <div class="logo-footer-don">
+                    <img src="img/logo-footer-don.png"/>
+                </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+            Copyright <a class="black-text text-lighten-3" href="http://cearanews7.com">Don7 - Media Group </a> 2000-<?= date('Y'); ?>
         </div>
     </div>
 </footer>

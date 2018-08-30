@@ -9,7 +9,7 @@
             </a>
         </div>
         <div class="bigode">
-            Criminosos foram mortos na manha de quinta deira passada durante operação da Polícia Cicil, em Amontada. Em represália, as facções ordenadas a seus "soldados" iniciar uma nova onda de ataques nas ruas das cidades
+            Mortes de bandidos do PCC e do GDE provocam "salve geral" para ataques na Capital
         </div>
         <div class="line"></div>
     </div>
@@ -32,7 +32,7 @@
                     Mortes de bandidos do PCC e do GDE provocam "salve geral" para ataques na Capital
                 </div>
                 <div class="bigode-destaque">
-                    Criminosos foram mortos na manha de quinta deira passada durante operação da Polícia Cicil, em Amontada
+                    Mortes de bandidos do PCC e do GDE provocam "salve geral" para ataques na Capital
                 </div>
                 <div class="line"></div>
             </div>

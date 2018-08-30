@@ -103,7 +103,7 @@
                         <div class="col s6 l6">
                             <div class="border-mais-destaques"></div>
                         </div>
-                        <iframe width="99%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/179576144&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
+                        <iframe width="99%" height="360" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/179576144&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
                         </iframe>
                     </div>
                     <div class="line"></div>

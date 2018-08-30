@@ -20,6 +20,10 @@
                     <div class="bigode-destaque">
                         Nezinho fica rico na Prefeitura de Horizonte e compra mansão por 1 milhão de dólares
                     </div>
+                    <div class="hide-on-med-and-up">
+                        <div class="line"></div>
+                        <br/>
+                    </div>
                 </div>
                 <div class="col s12 m6 l6">
                     <div class="retranca-destaque-right">
@@ -69,6 +73,10 @@
                     </div>
                     <div class="bigode-destaque">
                         Nezinho fica rico na Prefeitura de Horizonte e compra mansão por 1 milhão de dólares
+                    </div>
+                    <div class="hide-on-med-and-up">
+                        <div class="line"></div>
+                        <br/>
                     </div>
                 </div>
                 <div class="col s12 m6 l6">

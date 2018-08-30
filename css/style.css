@@ -43,6 +43,13 @@ img{
     border-radius: 5px;
 }
 
+img:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    opacity: 0.6;
+}
+
 .top{
     height: 35px;
     padding: 5px 0;
@@ -181,7 +188,7 @@ nav .nav-search{
     font-weight: 400;
     line-height: 1.1em;
     color: #807f7f;
-    padding: 5px 0;
+    padding: 8px 0 0 0;
 }
 
 .title-destaque{
@@ -228,7 +235,7 @@ nav .nav-search{
 }
 
 .float-mais-destaques{
-    margin-top: -25%;
+    margin-top: -34%;
 }
 
 .float-mais-destaques-right{
@@ -242,7 +249,7 @@ nav .nav-search{
 
 .mais-destaque{
     text-transform: uppercase;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: bold;
     color: black;
 }
@@ -494,7 +501,47 @@ nav .nav-search{
     margin: 4px 0 6px 0;
 }
 
+/*
+    footer
+ */
 
+footer img{
+    width: 60%;
+}
+
+.logo-footer{
+    margin-top: 12%;
+}
+
+footer ul li{
+    color: black;
+    font-size: 1em;
+    margin: 10px 5px;
+    font-weight: 500;
+}
+
+footer ul a:hover{
+    color: #f7c341;
+    background-color: inherit;
+}
+
+.border-menu-footer{
+    border-left: 1px solid black;
+}
+
+/*
+  desktop
+ */
+@media only screen and (min-width: 1200px){
+
+}
+
+/*
+  tablet
+ */
+@media only screen and (min-width: 992px){
+
+}
 
 /*
   mobile
@@ -588,6 +635,15 @@ nav .nav-search{
     /*
         mais destaques | right
      */
+
+    .title-destaque {
+        font-size: 1.7em;
+        font-weight: 500;
+    }
+
+    .bigode-destaque {
+        font-size: 1.4em;
+    }
 
     .float-mais-destaques{
         margin-top: -10%;
@@ -732,6 +788,263 @@ nav .nav-search{
     .tudo {
         font-size: 1.4em;
         margin: 0;
+    }
+
+    /*
+        footer
+     */
+
+    .logo-footer {
+        margin-top: 0;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+
+    .logo-footer img{
+        width: 50%;
+    }
+
+    .logo-footer-don{
+        text-align: center;
+    }
+
+    .logo-footer-don img{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    .mais-destaque {
+        font-size: 1.1em;
+    }
+
+    .politica{
+        font-size: 1.1em;
+    }
+
+    .cariri{
+        font-size: 1.1em;
+    }
+
+    .observatorio{
+        font-size: 1.1em;
+    }
+
+    .tudo{
+        font-size: 1.1em;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+
+    /*
+        mais destaques
+     */
+
+    .mais-destaque {
+        font-size: 1.2em;
+    }
+
+    .card .card-image .card-title {
+        margin: -8px -5px;
+    }
+
+    .mais-destaque {
+        font-size: 1.1em;
+    }
+
+    .tittle-destaque-right {
+        font-size: 1.2em;
+    }
+
+    /*
+    politica
+ */
+
+    .politica{
+        font-size: 1.1em;
+    }
+
+    .title-destaque {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    .title-politica {
+        font-size: 1.2em;
+        font-weight: 500;
+    }
+
+    /*
+        cariri
+     */
+
+    .cariri {
+        font-size: 1.1em;
+    }
+
+    /*
+        observatorio
+     */
+
+    .observatorio {
+        font-size: 1.1em;
+    }
+
+    /*
+        de tudo
+     */
+
+    .tudo {
+        font-size: 1.1em;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    /*
+        top
+     */
+
+    .top{
+        height: 28px;
+    }
+
+    .text-top {
+        font-size: 0.8em;
+    }
+
+    /*
+        nav
+     */
+
+    nav{
+        height: 60px;
+    }
+
+    nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+        font-size: 1.8em;
+    }
+
+    nav .sidenav-trigger {
+        margin: 2px 2px;
+    }
+
+    .search {
+        margin-top: 2px;
+    }
+
+    .submenu-nav a{
+        font-size: 1em;
+    }
+
+    .btn-small{
+        font-size: 0.7em;
+    }
+
+    .title a {
+        font-size: 2em;
+    }
+
+    .bigode {
+        font-size: 1.2em;
+    }
+
+    .title-destaque {
+        font-size: 1.4em;
+    }
+
+    .bigode-destaque {
+        font-size: 1.1em;
+    }
+
+    .retranca-destaque-right{
+        font-size: 0.7em;
+    }
+
+    .tittle-destaque-right {
+        font-size: 1em;
+    }
+
+    .mais-destaque {
+        font-size: 1em;
+    }
+
+    .card-container {
+        height: 110px;
+    }
+
+    .card .card-image .card-title {
+        margin: 0 0 -10px -5px;
+    }
+
+    .card .card-title {
+        font-size: 1.2em;
+    }
+
+    /*
+        politica
+     */
+
+    .politica{
+        font-size: 1.1em;
+    }
+
+    .title-destaque {
+        font-size: 1.3em;
+    }
+
+    .title-politica {
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    /*
+        cariri
+     */
+
+    .cariri {
+        font-size: 1.1em;
+    }
+
+    /*
+        observatorio
+     */
+
+    .observatorio {
+        font-size: 1.1em;
+    }
+
+    /*
+        de tudo
+     */
+
+    .tudo {
+        font-size: 1.1em;
+    }
+
+    /*
+        menu
+     */
+
+    .sidenav {
+        width: 270px;
+    }
+
+    .user-view-cap {
+        height: 150px;
+    }
+
+    .user-view-cap img{
+        width: 80%;
+    }
+
+    .sidenav li > a {
+        font-size: 1.1em;
     }
 
 }
