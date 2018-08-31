@@ -734,6 +734,20 @@ blockquote {
 }
 
 /*
+    search
+ */
+
+.description-search {
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+}
+
+.description-search strong{
+    color: #f7c341;
+}
+
+/*
   desktop
  */
 @media only screen and (min-width: 1200px){
