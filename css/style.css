@@ -589,7 +589,7 @@ blockquote {
 
 .content-single{
     margin-top: -5%;
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: 300;
 }
 
@@ -699,7 +699,39 @@ blockquote {
     margin-top: 5%;
 }
 
+/*
+    colunas
+ */
 
+.ajuste-colunista{
+    padding: 15px;
+}
+
+.ajuste-padding-coluna{
+    margin-top: 15px;
+}
+
+.ajuste-title-colunista{
+    font-size: 0.7em;
+}
+
+.content-single-coluna{
+    margin-top: 3%;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.ajuste-img-coluna img{
+    width: 60%;
+}
+
+.img-date-coluna img{
+    width: 10% !important;
+}
+
+.facebook-coluna img{
+    width: 35% !important;
+}
 
 /*
   desktop
@@ -1024,6 +1056,18 @@ blockquote {
         width: 5% !important;
     }
 
+    /*
+        colunas
+     */
+
+    .ajuste-colunista {
+        padding: 0 90px;
+    }
+
+    .ajuste-img-social-mobile{
+        margin-top: 0;
+    }
+
 }
 
 @media only screen and (max-width: 375px){
@@ -1328,5 +1372,13 @@ blockquote {
 
     .pagination li a {
         font-size: 1em;
+    }
+
+    /*
+       colunas
+    */
+
+    .ajuste-colunista {
+        padding: 0 60px;
     }
 }
