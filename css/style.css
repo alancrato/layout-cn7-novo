@@ -617,6 +617,91 @@ blockquote {
 }
 
 /*
+    category
+ */
+
+.description-category{
+    font-size: 2em;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+}
+
+.float-category{
+    margin-top: 2%;
+}
+
+.category img{
+    width: 100%;
+    border: 0;
+}
+
+.time-date img{
+    width: 3%;
+}
+
+.title-category{
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: black;
+    padding: 5px 0;
+}
+
+.bigode-category{
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.1em;
+    color: #807f7f;
+    padding: 10px 0;
+}
+
+.pagination li {
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    vertical-align: top;
+    height: 30px;
+}
+
+.pagination li.active {
+    background-color: #f7c341;
+}
+
+.pagination li.active a {
+    color: black;
+    font-weight: 500;
+}
+
+.pub-category{
+    width: 90%;
+    height: 300px;
+    background-color: #ececec;
+    margin: 0 auto;
+}
+
+.line-sidebar-category{
+    margin: 0 auto;
+    border-bottom: 1px solid #0000001c;
+    width: 90%;
+}
+
+.line-category{
+    margin: 0 auto;
+    border-bottom: 1px solid #0000001c;
+}
+
+/*
+    últimas
+ */
+
+.ajuste-ultimas{
+    margin-top: 5%;
+}
+
+
+
+/*
   desktop
  */
 @media only screen and (min-width: 1200px){
@@ -931,6 +1016,14 @@ blockquote {
         margin: 8px 0 -8px 0;
     }
 
+    /*
+        category
+     */
+
+    .time-date-category img{
+        width: 5% !important;
+    }
+
 }
 
 @media only screen and (max-width: 375px){
@@ -954,6 +1047,10 @@ blockquote {
     .tudo{
         font-size: 1.1em;
     }
+
+    /*
+        category
+     */
 
 }
 
@@ -1036,7 +1133,6 @@ blockquote {
     .tittle-leia-tambem {
         font-weight: 500;
     }
-
 
 }
 
@@ -1218,4 +1314,19 @@ blockquote {
         font-weight: 500;
     }
 
+    /*
+        category
+     */
+
+    .description-category {
+        font-size: 1.2em;
+    }
+
+    .float-category {
+        margin-top: 0;
+    }
+
+    .pagination li a {
+        font-size: 1em;
+    }
 }
